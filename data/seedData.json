@@ -1,0 +1,36 @@
+{
+    "clients": [
+        {
+            "clientName": "ICA Kvantum Landvetter",
+            "clientLogo": "web_ica_kvantum_logotyp.png",
+            "altText": "ica-kvantum",
+            "clientStory": {
+                "review": "Vi har tagit nästa steg i arbetet mot en tryggare och säkrare butik. Vi har investerat i armtag på alla våra glasdörrar! Nu kan du välja att öppna utan att behöva använda händerna. Dessa är också till stor hjälp för våra kunder som har reumatism eller liknande."
+            }
+        },
+        {
+            "clientName": "Maxi ICA Stormarknad Torslanda",
+            "clientLogo": "ica_maxi.png",
+            "altText": "ica-maxi",
+            "clientStory": {
+                "review": "Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
+            }
+        },
+        {
+            "clientName": "ICA City Borås",
+            "clientLogo": "ica-city.png",
+            "altText": "ica-city",
+            "clientStory": {
+                "review": "Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
+            }
+        },
+        {
+            "clientName": "ICA Nära Rävekärr",
+            "clientLogo": "ica-nara.png",
+            "altText": "ica-nära",
+            "clientStory": {
+                "review": "Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus."
+            }
+        }
+    ]
+}

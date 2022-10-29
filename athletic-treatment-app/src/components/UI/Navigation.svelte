@@ -1,5 +1,5 @@
 <script>
-	//import LogoImage from "../../../static/assets/verdi-nav-logo.jpg" TODO add logo
+	import LogoImage from "../../../static/assets/Atletic_Transp.png"
 	
 	let showMobileMenu = false;
 
@@ -20,15 +20,16 @@
 				<div class="pl-4">
 					<!-- Website Logo -->
 					<a href="/" class="flex items-center py-2">
-						<img src="" alt="Logo" class="h-12 sm:h-18">
+						<img src={LogoImage} alt="Logo" class="h-12 sm:h-18">
 					</a>
 				</div>
 				<!-- Primary Navbar items -->
 				<div class="hidden md:flex items-center space-x-1 pr-4">
 					<a href="#about-us" class="py-4 px-2 text-gray-500 border-b-4 hover:border-green-500 font-semibold">Om oss</a>
-					<a href="#products" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Produkter</a>
-					<a href="#clients" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Kunder</a>
+					<a href="#products" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Tjänster</a>
+					<a href="#clients" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Medarbetare</a>
 					<a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Kontakta oss</a>
+					<a href="https://www.bokadirekt.se/places/athletic-treatment-47446" class="py-4 px-2 text-gray-500 font-semibold text-green-500 transition duration-300">Boka tid!</a>
 				</div>
 				
 				<!-- Mobile menu button -->

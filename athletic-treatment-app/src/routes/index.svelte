@@ -61,6 +61,7 @@
 
 <svelte:head>
 <title>Athletic Treatment</title>
+<base href="http://localhost:3000"> <!-- TODO fetch from env file -->
 </svelte:head>
 
 <section id="navigation">
@@ -100,7 +101,4 @@
 <ContactForm rightBtnText="Skicka" leftBtnText="Avbryt" on:cancel={closeContactForm} />
 {/if}
 
-
-<!-- <h1>Welcome to SvelteKit</h1>
-    <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
     

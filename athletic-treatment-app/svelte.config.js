@@ -6,6 +6,15 @@ import adapter from '@sveltejs/adapter-netlify';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
+		vite: {
+			server: {
+				fs: {
+					allow: ['locales']
+				}
+			}
+		}
+	},
+	kit: {
 		adapter: adapter({
 			// default options are shown
 			pages: 'build',
@@ -21,6 +30,7 @@ const config = {
 	preprocess: [preprocess({
 		"postcss": true
 	})]
+
 };
 
 export default config;

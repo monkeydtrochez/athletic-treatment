@@ -11,7 +11,7 @@
     import { initializeServices } from "../services/servicesService";
     import { initializeEmployees } from "../services/employeeService";
 
-    import { stringValues } from "../stores/strings-store.js";
+    //import { stringValues } from "../stores/strings-store.js";
 	
     
     const firebaseConfig = getVariables();
@@ -25,7 +25,7 @@
             await initializeServices(database); // products är nu services Tjänster
             await initializeEmployees(database); // clients är nu employees medarbetare
             await fetchStringValues(database).then((result) => {
-                $stringValues = result;
+                //$stringValues = result;
             }).catch((error) => {
                 console.log(error);
             });

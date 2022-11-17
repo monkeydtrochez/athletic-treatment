@@ -1,1 +1,0 @@
-<div class="pt- my-8 border-t border-gray-300"></div>
